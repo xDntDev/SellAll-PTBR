@@ -1,0 +1,25 @@
+###█▀▀ █▀▀ █░░ █░░ █▀▀█ █░░ █░░
+##▀▀█ █▀▀ █░░ █░░ █▄▄█ █░░ █░░
+#▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀░░▀ ▀▀▀ ▀▀▀
+#DO NOT CHANGE
+cfgversion: 1.3
+# MESSAGES
+#change the messages sent in this plugin
+
+reload: "&e&lAviso: &r&7recarregado SellAll"
+
+error.permission: "&c&lErro: &r&7você não tem permissão para executar este comando"
+
+error.not-found: "&c&lErro: &r&7você não pode vender este item"
+
+error.argument: "&c&lUso: &r&7/vender &7{ARGS}"
+separator: "&8|&7"
+#the above value tells the plugin how to seperate the arguments in {ARGS}
+
+#use the variables:{AMOUNT}, {ITEMNAME} and {MONEY} and they will get replaced by their value.
+success.sell: "&a&lSucesso! &r&7vendido &8{QUANTIA} {NOME DO ITEM} &7por &8${DINHEIRO}"
+
+#the message when someone executes "/sell inventory"
+success.sell.inventory: "&a&lSucesso! &r&7vendeu todo o seu inventário por §8${DINHEIRO}"
+
+error.no.sellables: "&c&lErro: &r&7não há nada em seu inventário que você possa vender"
