@@ -1,0 +1,21 @@
+name: SellAll
+main: AndreasHGK\SellAll\SellAll
+version: 1.3.0-PM4
+api: 4.0.0
+load: POSTWORLD
+author: xDntDev
+description: Venda todos os itens em sua mão ou todos os itens em seu inventário com o mesmo tipo que está em sua mão 
+
+commands:
+ vender:
+  description: "Comando de Vender"
+  usage: "/vender tudo|mao|inventario"
+  permission: sellall.command
+
+permissions:
+ sellall.command:
+  default: true
+  description: "Permite o uso de /sell "
+ sellall.reload:
+  default: op
+  description: "Recarrega o plug-in"
